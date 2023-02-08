@@ -1,0 +1,102 @@
+:root {
+    --blue-buttons: #3D74F5;
+    --key-benefits-subtext: #707B8B;
+    --hire-us-background: #243358;
+    --hire-us-form-name: #979696;
+    --hire-us-anchor-tag: #0058F4;
+    --head-slack-goal: #5A667A;
+    --footer-text: #7B8898;
+    --worlds-best: #5C5F64;
+    --why-front-baby-blue: #EDF2FE;
+    --mini-icon-text: #6B7686;
+    --mini-icon-background: #EDF2FE;
+    --why-front-dot: #2563F6;
+    --green-button: #5BC5A8;
+    --prospectives-background: #F9FAFE;
+    --hire-us-form-borders: #EAEAF4;
+    --bars-color: #6A7686;
+}
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--footer-text);
+}
+
+.blue-button {
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: 0px;
+    background: var(--blue-buttons);
+    color: white;
+}
+
+#highlighted { color: var(--hire-us-anchor-tag)}
+
+button { cursor: pointer;}
+
+.black-header {
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.grey-subtext{
+    color: var( --key-benefits-subtext);
+    font-size: 23px;
+}
+
+#learn-more {
+    color: var(--hire-us-anchor-tag);
+    cursor: pointer;
+
+}
+
+.small-headers {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.small-subtext {
+    color: var( --key-benefits-subtext);
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.lh{ line-height: 30px;}
+
+
+
+
+
+
+
+
+
+
+.fade-in-out {
+    animation: fade-in-out 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

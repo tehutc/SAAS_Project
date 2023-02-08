@@ -1,0 +1,685 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body, html{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: flex;
+        position: absolute;
+        left: 0%;
+        top: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background-color: #F8F7F7;
+        margin-top: 4%;
+        padding-top: 30%;
+        padding-bottom: 40%;
+        padding-left: 6%;
+        box-shadow: 3px 43px 35px rgb(213 213 213);
+        
+    }
+
+
+
+
+
+    .main-logo{
+        position: absolute;
+        background-color: #F8F7F7;
+        padding-top: 8%;
+        padding-left: 6%;
+        padding-right: 76%;
+        padding-bottom: 3%;
+        top: -3%;
+        left: -3%;
+        z-index: 101;
+    }
+
+    .top {
+        margin-bottom: 15%;
+    }
+
+    .navbar-toggler{
+        border: 0px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-bottom: 10px;
+        position: absolute;
+        z-index: 100;
+        right: 0;
+    }
+
+    .navbar-toggler span{
+        pointer-events: none;
+        font-size: 40px;
+    }
+
+    .navbar {
+        align-items: flex-end;
+    }
+
+    .navbar-nav li > button{
+        position: absolute;
+        width: max-content;
+        right: 48%;
+        margin-top: 10%;
+    }
+
+    .nav-link{
+        font-size: 19px;
+    }
+
+
+
+    .intro {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -51%;
+    }
+
+    .intro .text {
+        width: 52%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    .intro .buttons {
+        justify-content: center;
+    }
+
+    .floating-icons {
+        width: 83%;
+        margin-top: -15%;
+        position: relative;
+        top: 52%;
+        margin-bottom: 16%;
+    }
+
+
+    .key-benefits .cards {
+        grid-template-columns: repeat(2, 48%);
+        grid-template-rows: repeat(2, 52%);
+        row-gap: 5%;
+    }
+
+    .prospectives {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 50px;
+    }
+
+    .prospectives img {
+        width: 90%;
+    }
+
+    .why-front .text {
+        width: 85%;
+    }
+
+    .diagram {
+        width: 85%;
+    }
+
+    .diagram p {
+        font-size: 20px;
+    }
+
+    .two { left: 17%;}
+    .three { left: 35%;}
+    .four { left: 55%;}
+
+    .video-display {
+        width: 92%;
+        height: 40vh;
+    }
+
+    .video-display button{
+        left: 45%;
+        top: 40%;
+    }
+
+    .hubspot {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .hubspot .img img:nth-child(1) {
+        position: absolute;
+        z-index: -10;
+        bottom: 56%;
+        left: 26%;
+        height: 37%;
+    }
+
+    .hubspot .img img:nth-child(2) {
+        width: 34vh;
+    }
+    .hubspot .text {
+        text-align: center;
+        width: 85%;
+    }
+
+    .pricing .box {
+        flex-direction: column;
+    }
+
+    .pricing .big-card {
+        width: 91%;
+        margin-bottom: 30px;
+    }
+
+    .pricing .big-card .price, .pricing .big-card .cc {
+        text-align: center;
+    }
+    .pricing .big-card .blue-button{
+        margin-left: 38%;
+    }
+
+    .pricing .boxes {
+        width: 110%;
+    }
+    .hire-us {
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+
+    .hire-us .text {
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+    }
+
+    .hire-us .introduc{
+        width: 101%;
+    }
+
+    .hire-us .text .pt-one {  
+        width: 80%;
+    }
+
+    .hire-us .introduc .lh, .hire-us .introduc .quote{
+        font-size: 18px;
+    }
+
+    .hire-us .text .head { margin-bottom: 30px;}
+    
+    br { display: none;}
+    
+    .imgs .smaller { width: 17%;}
+
+    .imgs .larger { width: 25%;}
+
+    .hire-us .part-two {
+        margin-left: 9%;
+    }
+
+    .hire-us .form {
+        width: 82%;
+    }
+
+    .form .policy{
+        margin-left: 20%;
+    }
+
+    .hire-us .form .get-started{
+        margin-left: 38%;
+    }
+
+    .contact {
+        padding: 0 3%;
+    }
+
+    .contact .logo-address-number{
+        width: 49%;
+    }
+
+    .contact .support {
+        display: grid;
+        grid-template-columns: repeat(2, 35%);
+        grid-template-rows: repeat(2, 50%);
+        row-gap: 5%;
+    }
+
+    footer .privacy .icons > *{
+        padding: 3%;
+    }
+
+    footer .privacy {
+        margin: 0px 1.5rem;
+    }
+
+    footer .privacy span{
+        font-size: 14px;
+    }
+
+    footer .copyright .text{
+        width: 90%;
+        margin: 6% 0;
+        margin-left: 5%;
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 767px) {
+    
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        right: -19px;
+        top: -1%;
+        background-color: #F8F7F7;
+        margin-top: 4%;
+        padding-top: 30%;
+        padding-bottom: 20%;
+        box-shadow: 3px 43px 35px rgb(213 213 213);
+    }
+
+    .main-logo{
+        position: absolute;
+        background-color: #F8F7F7;
+        padding-top: 15%;
+        padding-left: 20%;
+        padding-right: 60%;
+        padding-bottom: 5%;
+        top: -3%;
+        left: -19%;
+        z-index: 10;
+    }
+
+    
+
+    .top {
+        margin-bottom: 15%;
+    }
+
+    .navbar-toggler{
+        border: 0px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-bottom: 10px;
+        position: absolute;
+        z-index: 100;
+        right: 0;
+    }
+
+    .navbar-toggler span{
+        pointer-events: none;
+        font-size: 40px;
+    }
+
+    .navbar { align-items: flex-end;}
+
+    .navbar-nav li > button{
+            position: absolute;
+        width: max-content;
+        margin-top: -20%;
+        left: 36%;
+    }
+
+    .navbar-nav li:nth-child(5){
+        margin-bottom: 100px;
+    }
+
+    .nav-link{
+        margin: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -51%;
+    }
+
+    .intro .text {
+        width: 90%;
+        margin-top: 30%;
+        text-align: center;
+        margin-bottom: 20%;
+        margin-left: 0;
+    }
+
+    .intro .text text{ font-size: 35px;}
+
+    .intro .buttons { justify-content: center;}
+
+    .floating-icons {
+        width: 95%;
+        margin-top: -15%;
+        position: relative;
+        bottom: -70px;
+        margin-bottom: 16%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 30% 30% 30%;
+    }
+
+    
+
+    #smaller{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .floating-icons div{
+        width: 3.375rem;
+        height: 3.375rem;
+    }
+
+    .floating-icons div:nth-child(3), .floating-icons div:nth-child(2), .floating-icons div:nth-child(6) {
+        width: 2.4375rem;
+        height: 2.4375rem;
+    }
+
+    #google-A{ margin-top: 35px;}
+
+    #atlassian{ margin-left: 5rem;}
+
+    .floating-icons div img{
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+
+
+
+    .key-benefits .cards {
+        grid-template-columns: repeat(1, 98%);
+        grid-template-rows: repeat(4, 26%);
+        row-gap: 2%;
+    }
+
+    .prospectives {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 50px;
+    }
+
+    .prospectives .text{
+        width: 17.6875rem;
+    }
+
+    .prospectives img {
+        width: 90%;
+    }
+
+    .why-front .text {
+        width: 85%;
+    }
+
+    .diagram {
+        flex-direction: column;
+        height: 0;
+    }
+
+    .diagram div{
+        height: inherit;
+        top: -8.4375rem;
+    }
+
+    .diagram p {
+        font-size: 18px;
+        left: 132%;
+        top: 0;
+    }
+
+    .one, .two, .three, .four{
+        left: 0;
+    }
+
+    .video-display {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .video-display button{
+        left: 43%;
+        top: 40%;
+        padding: 2.125rem;
+    }
+
+    .video-display button i{
+        right: 32%;
+        top: 31%;
+    }
+
+    .hubspot {
+        flex-direction: column;
+        height: 860px;
+        margin: 12.5rem 0;
+    }
+
+    .hubspot .img{
+        width: 55%;
+        padding-left: 0;
+    }
+
+    .hubspot .img img:nth-child(1) {
+        position: absolute;
+        z-index: -10;
+        top: 10%;
+        left: 3.675rem;
+        height: 26%;
+    }
+
+    .hubspot .img img:nth-child(2) {
+        width: 120%;
+    }
+    .hubspot .text {
+        text-align: center;
+        width: 85%;
+    }
+
+    .hubspot .text > p{
+        font-size: 1.5rem;
+    }
+
+    .worlds-best .logos{
+        margin-bottom: 6.375rem;
+        flex-direction: column;
+    }
+
+    .worlds-best .logos img{
+        width: 40%;
+        margin: 15px 0;
+    }
+
+    .pricing{
+        margin: 0px 1.125rem;
+    }
+
+    .pricing .box {
+        flex-direction: column;
+    }
+
+    .pricing .big-card {
+        width: 82%;
+        margin-bottom: 30px;
+    }
+
+    .pricing .big-card .price, .pricing .big-card .cc {
+        text-align: center;
+    }
+    .pricing .big-card .blue-button{
+        margin-left: 20%;
+    }
+
+    .pricing .boxes {
+        width: 110%;
+        grid-template-columns: repeat(1, 97%);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .hire-us {
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+
+    .hire-us .text {
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        flex-direction: column;
+    }
+
+    .hire-us .introduc{
+        width: 101%;
+    }
+
+    .hire-us .text .pt-one {  
+        width: 80%;
+    }
+
+    .hire-us .introduc .lh, .hire-us .introduc .quote{
+        font-size: 18px;
+    }
+
+    .hire-us .text .head { margin-bottom: 30px;}
+    
+    br { display: none;}
+    
+    .imgs .smaller { width: 17%;}
+
+    .imgs .larger { width: 25%;}
+
+    .hire-us .part-two {
+        margin-left: 9%;
+        margin-bottom: 20%;
+    }
+
+    .hire-us .form {
+        width: 70%;
+    }
+
+    .form > .fill-in{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .form > textarea{
+        margin-top: 17.6875rem;
+        width: 85%;
+    }
+
+    .form .policy{
+        margin-left: 20%;
+    }
+
+    .form .policy > #highlighted{
+        display: none;
+    }
+
+    .hire-us .form .get-started{
+        margin-left: 20%;
+    }
+
+    .contact {
+        padding: 0 3%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35%;
+    }
+
+    .contact .logo-address-number{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact .logo-address-number li{
+        margin: 7% 0;
+    }
+
+    #blueee{
+        justify-content: center;
+    }
+    #blueee button{
+        margin-left: 0.5375rem;
+    }
+
+    .contact .support {
+        display: grid;
+        grid-template-columns: repeat(1, 70%);
+        grid-template-rows: repeat(4, 28%);
+        text-align: center;
+        row-gap: 5%;
+    }
+
+    footer .privacy .icons > *{
+        padding: 3%;
+        margin: 10px 7px;
+    }
+
+    footer .privacy {
+        margin: 0px 1.5rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer .privacy .icons{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    footer .privacy .icons #us{
+        width: 60%;
+    }
+
+    footer .privacy span{
+        font-size: 14px;
+    }
+
+    footer .privacy > span{
+        margin-bottom: 15px;
+    }
+
+    footer .copyright .text{
+        width: 90%;
+        margin: 6% 0;
+        margin-left: 5%;
+    }
+
+  }

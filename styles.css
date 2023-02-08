@@ -1,0 +1,697 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    background: url(/saas-project-assets/abstract/empowering-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 12.5rem;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.625rem;
+    z-index: 1000;
+}
+
+.main-logo {
+    width: 9.375rem;
+    margin-left: 1.25rem;
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-link{
+    margin: 0 20px;
+}
+
+
+
+
+
+.intro {
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.intro .text {
+    width: 30%;
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.intro .text text {
+    font-size: 3.75rem;
+}
+
+.intro .text p {
+    color: var(--hire-us-form-name);
+}
+
+.intro .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.intro .buttons nav a {
+    color: var(--hire-us-anchor-tag);
+    margin-left: 2.5rem;
+}
+
+
+.intro .text button i {
+    font-size: 0.875rem;
+    margin-right: 0.125rem;
+}
+
+.floating-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    width: 47%;
+    grid-template-areas: 
+    "google atlassian . asana"
+    ". paypal weave ."
+    ". google-A . calendar";
+    transform: translateX(8%) translateY(-20%);
+    transition: transform 0.8s ease-in-out;
+}
+#asana { 
+    grid-area: asana;
+    margin: 0;
+}
+#atlassian { 
+    grid-area: atlassian;
+    margin-left: 6.25rem;
+}
+#calendar { 
+    grid-area: calendar;
+    margin-bottom: -1.875rem;
+}
+
+
+#google-A { 
+    grid-area: google-A;
+    margin-left: 2.5rem;
+}
+#google { 
+    grid-area: google;
+    margin-left: 3.75rem;
+    margin-top: -1.875rem;
+}
+#paypal { 
+    grid-area: paypal;
+    margin-left: -3.125rem;
+}
+
+
+#weave { 
+    grid-area: weave;
+}
+
+.floating-icons div img {
+    background-color: white;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 0.3125rem;
+    margin-top: 0.1875rem;
+}
+
+.floating-icons div {
+    background-color: white;
+    padding: 0.625rem;
+    box-shadow: 0px 0px 0.3125rem rgb(154, 153, 153);
+    border-radius: 3.125rem;
+    margin: 0.625rem;
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+#smaller {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.floating-icons div:nth-child(3), .floating-icons div:nth-child(2), .floating-icons div:nth-child(6){
+    width: 3.4375rem;
+    height: 3.4375rem;
+}
+
+
+.key-benefits {
+    padding: 1.875rem 1.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.key-benefits .text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.key-benefits .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: space-around;
+}
+
+.key-benefits .card {
+    box-shadow: 3px 15px 35px rgb(213, 213, 213);
+    padding: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.card img {
+    width: 4.0625rem;
+    height: auto;
+}
+
+#greenn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.125rem;
+}
+
+#greenn button {
+    height: 1.4375rem;
+    width: 3.75rem;
+    margin-left: 0.9375rem;
+    background-color: var(--green-button);
+    border: 0px;
+    color: white;
+    border-radius: 0.625rem;
+}
+
+.prospectives {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--prospectives-background);
+    align-items: stretch;
+    padding-top: 6.25rem;
+    justify-content: space-between;
+    margin: 1.875rem;
+}
+
+.prospectives .text {
+    width: 29.6875rem;
+    margin: 2.5rem;
+}
+
+.prospectives .text div {
+    font-size: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+
+.why-front {
+    display: flex;
+    margin: 6.25rem 0px;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem 0.625rem;
+    margin-bottom: 12.5rem;
+}
+
+.why-front .text {
+    text-align: center;
+    width: 65%;
+    margin-bottom: 9.375rem;
+}
+
+.why-front .text .why-front-sub{ line-height: 35px;}
+
+.diagram {
+    display: flex;
+    flex-direction: row;
+    height: 0.3125rem;
+    width: 75%;
+    background-color: var(--why-front-baby-blue);
+    position: relative;
+}
+
+.diagram span { 
+    font-size: 3.125rem;
+    margin-top: -1.875rem;
+    margin-left: -0.4375rem;
+    color: var(--why-front-dot);
+}
+
+.diagram div {
+    display: flex;
+    align-items: center;
+    padding: 2.1875rem;
+    width: 0px;
+    position: relative;
+    background-color: var(--why-front-baby-blue);
+    border-radius: 3.75rem;
+    top: -2.4375rem;
+    border: 0.3125rem solid white;
+}
+
+.one { left: 0%;}
+.one p { left: -50%;}
+
+.two { left: 25%;}
+.two p { left: -34%;}
+
+.three { left: 50%;}
+.three p { left: -104%;}
+
+.four { left: 75%;}
+.four p { left: -39%;}
+
+.diagram p {
+    width: 14.625rem;
+    position: absolute;
+    margin-top: 1.875rem;
+    top: 100%;
+    font-size: 22px;
+}
+
+.video-display {
+    background-image: url(/saas-project-assets/banners/banner_two.jpg);
+    margin-top: 18.75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 100vh;
+}
+
+.video-display button {
+    z-index: 100;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    border: 0px;
+    padding: 3.125rem;
+    background-color: white;
+    font-size: 1.5625rem;
+    border-radius: 3.75rem;
+    box-shadow: 0px 0px 0.75rem rgb(200, 199, 199);
+}
+
+.video-display button i {
+    position: absolute;
+    right: 38%;
+    top: 37%;
+}
+
+.hubspot {
+    display: flex;
+    flex-direction: row;
+    margin: 12.5rem 1.25rem;
+    margin-bottom: 15.625rem;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.hubspot .img {
+    width: 45%;
+    padding-left: 5rem;
+}
+
+.hubspot .img img:nth-child(1) {
+    position: absolute;
+    z-index: -10;
+    bottom: -2.8125rem;
+    left: 1.8125rem;
+    height: 89%;
+}
+
+.hubspot .img img:nth-child(2){ width: 65vh;}
+
+.hubspot .text {
+    width: 65%;
+    margin-left: 1.25rem;
+}
+.hubspot .text img { width: 150px;}
+.hubspot .text > p {
+    font-size: 1.875rem;
+    margin-bottom: 5rem;
+    line-height: 2.8125rem;
+}
+
+.hubspot .text .name span { font-weight: 600;}
+.hubspot .text .name h3{
+    margin: 0.625rem 0px;
+    font-size: 1.4375rem;
+}
+.worlds-best > p {
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+.worlds-best .logos{
+    margin-top: 3.125rem;
+    margin-bottom: 9.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.worlds-best .logos img{
+    width: 13%;
+}
+
+.pricing {
+    margin: 0px 3.125rem;
+    margin-bottom: 12.5rem;
+}
+.pricing > .text {
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+
+.pricing .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pricing .big-card {
+    box-shadow: 0px 0.5rem 0.75rem rgb(200, 199, 199);
+    width: 35%;
+    height: fit-content;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+
+.pricing .big-card .price {
+    padding: 1.875rem 0px;
+}
+
+.pricing .big-card span:nth-child(1) {
+    font-weight: 400;
+    font-size: 3.75rem;
+}
+.pricing .big-card span:nth-child(2) {
+    color: var(--key-benefits-subtext);
+}
+.pricing hr {
+    margin-bottom: 1.875rem;
+}
+.pricing .big-card button {
+    margin-bottom: 15px;
+    margin-top: 1.875rem;
+}
+.pricing .cc{ 
+    color: var(--mini-icon-text);
+    margin: 0;
+}
+
+.pricing .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: repeat(2, 1fr);
+    width: 55%;
+}
+
+.pricing .boxes .card{
+    padding: 1.25rem;
+}
+
+.hire-us {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--hire-us-background);
+    padding: 40px 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hire-us .text { margin-left: 6%;}
+
+.hire-us .text .pt-one{
+    width: 103%;
+}
+
+.hire-us .introduc{
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+}
+
+
+
+.hire-us .text .title { color: white;}
+
+.hire-us hr{ width: 100%;}
+
+.hire-us .text .quote {
+    color: rgb(223, 223, 223);
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.hire-us .text .name {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.hire-us .text .head {
+    color: var(--footer-text);
+    margin: 0.5rem 0px;
+    margin-bottom: 3.125rem;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgs *{ 
+    margin-right: 1.875rem;
+    border-radius: 3.125rem;
+}
+
+.imgs .smaller {
+    width: 15%;
+    height: fit-content;
+}
+
+.form {
+    background-color: white;
+    padding: 3.125rem;
+    border-radius: 0.625rem;
+    width: 33%;
+}
+
+.form > h4{
+    margin: 0;
+    margin-bottom: 1.875rem;
+}
+
+.form > .fill-in {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, minmax(1fr, auto));
+    grid-row-gap: 20%;
+    justify-items: start;
+}
+
+.form .fill-in > input, .form .fill-in > select {
+    width: 80%;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    border: 1px solid var(--hire-us-form-borders);
+    z-index: 10;
+}
+
+.form .fill-in select {
+    width: 90%;
+}
+
+.form > textarea {
+    margin-top: 4.6875rem;
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 25%;
+    border-radius: 0.3125rem;
+    border: 1px solid var(--hire-us-form-borders);
+    font-family: "Inter", sans-serif;
+}
+
+.form > .textbox::placeholder { white-space: pre-wrap;}
+
+.form .check, .form .policy {
+    display: flex;
+    flex-direction: row;
+}
+
+.form .check input {
+    width: 6%;
+}
+
+.form .check label{
+    color: #767676;
+    font-size: 13px;
+    width: 75%;
+    margin: 20px;
+    line-height: 20px;
+}
+
+.form .policy{
+    margin-top: 20px;
+    margin-left: 13%;
+}
+
+.form .policy .greyy { margin-right: 35px;}
+
+.form .policy * { text-decoration: underline dashed;}
+
+.form .get-started{
+    margin-top: 7%;
+    margin-left: 33%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    margin-bottom: 7%;
+}
+
+.contact .logo-address-number img {
+    width: 45%;
+    margin-bottom: 5%;
+}
+
+.contact .logo-address-number li { 
+    font-size: 16px;
+    color: var(--key-benefits-subtext);
+    margin: 3% 0;
+}
+
+.contact .logo-address-number li i { 
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.contact .support {
+    display: flex;
+    width: 79%;
+    justify-content: space-around;
+}
+
+.contact .support h4 { margin-top: 0;}
+
+#blueee{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#blueee button{
+    height: 1.4375rem;
+    width: 4.75rem;
+    margin-left: 0.9375rem;
+    background-color: var(--blue-buttons);
+    border: 0px;
+    color: white;
+    border-radius: 0.625rem;
+    font-size: 0.75rem;
+}
+
+.contact .support .career { margin: 0;}
+
+
+footer > hr {
+    border: 1px solid var(--hire-us-form-borders);
+    width: 93%;
+    margin-bottom: 75px;
+}
+
+footer .privacy {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 3.125rem;
+    align-items: center;
+    margin-bottom: 4.0625rem;
+}
+
+footer .privacy > span {
+    color: var(--footer-text);
+    word-spacing: 0.375rem;
+}
+footer .privacy .icons{
+    display: flex;
+}
+
+footer .privacy .icons > *{
+    background-color: var(--mini-icon-background);
+    padding: 5%;
+    border-radius: 0.625rem;
+    height: -webkit-fill-available;
+    color: var(--mini-icon-text);
+    margin: 0 0.625rem;
+}
+
+footer .privacy .icons > *:hover{
+    color: var(--mini-icon-background);
+    background-color: var(--footer-text);
+    cursor: pointer;
+}
+
+footer .privacy .icons #us {
+    width: 100%;
+}
+
+.usid{
+    display: flex;
+    align-items: center;
+    width: 10.5rem;
+    justify-content: space-between;
+}
+
+footer .copyright {
+    
+    text-align: center;
+    color: var(--footer-text);
+    line-height: 0px;
+    width: 100%;
+}
+
+footer .copyright .text *{
+    line-height: 30px;
+}
+
+footer .copyright .text { 
+    width: 75%;
+    margin: 0 12.5%;
+}
+
+
+
+
+
